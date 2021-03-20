@@ -36,9 +36,6 @@
     <ClInclude Include="rgb_led.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lv_demo_encoder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="lv_cubic_gui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -49,6 +46,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="images.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_port_fatfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_guider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guider_lv_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guider_fonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="events_init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -68,9 +80,6 @@
     <ClCompile Include="rgb_led.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_demo_encoder.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="lv_cubic_gui.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -78,6 +87,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_port_fatfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_guider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_font_simsun_12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="events_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setup_scr_home.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setup_scr_scenes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
